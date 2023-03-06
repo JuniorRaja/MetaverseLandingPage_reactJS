@@ -30,7 +30,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
           src="arrow.svg"
           alt="arrow"
           className="w-[40%] h-[40%] object-contain"
-        ></img>
+        />
       </div>
     </div>
   </motion.div>
