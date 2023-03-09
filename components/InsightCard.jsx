@@ -7,6 +7,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
   <motion.div
     variants={fadeIn("up", "sping", index * 0.5, 1)}
     className="flex md:flex-row flex-col gap-4"
+    viewport={{ once: true, amount: 0.25 }}
   >
     <img
       src={imgUrl}

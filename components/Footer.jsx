@@ -12,6 +12,7 @@ const Footer = () => (
     initial="hidden"
     whileInView="show"
     className={`${styles.paddings} py-8 relative`}
+    viewport={{ once: true, amount: 0.25 }}
   >
     <div className="footer-gradient" />
 
